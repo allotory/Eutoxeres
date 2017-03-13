@@ -1,23 +1,26 @@
-# Eutoxeres IM
+# Eutoxeres IM (Deprecated)
 
 ## What is Eutoxeres IM?
 
 Eutoxeres IM ("Eutoxeres Instant Messenger") is an instant messenger for the desktop.
 
-## Features
+## Snapshot
 
-* Instant communication between connected users
-* Robust backend server
-* Automatic state management between page reloads
-* User state and statuses
-* and _much_ more!
+* Swing version
 
-## Installation for Development
+![screenshot1](./snapshot/swinglogin.PNG)
 
-If you want to test Eutoxeres IM as a standalone app for development, you will need
-to install [`Eclipse`](http://www.eclipse.org/) as well.
+![screenshot2](./snapshot/swingmain.PNG)
 
-To import from existent project.
+![screenshot3](./snapshot/swingchat.PNG)
+
+* Web version(Electron)
+
+![screenshot4](./snapshot/electronlogin.PNG)
+
+![screenshot5](./snapshot/electronmain.PNG)
+
+![screenshot6](./snapshot/electronchat.PNG)
 
 ## Contributing
 

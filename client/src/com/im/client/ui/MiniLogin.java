@@ -321,15 +321,16 @@ public class MiniLogin extends JFrame{
 		dateUtils = new DateUtils();
 		login_bg = new JLabel();  
 		//判断当前时间以确定背景图片
-		if("morning".equals(dateUtils.getCurrentHours())){
-			login_bg.setIcon(login_bg_morningIcon);
-		}else if("afternoon".equals(dateUtils.getCurrentHours())){
-			login_bg.setIcon(login_bg_afternoonIcon);
-		}else if("night".equals(dateUtils.getCurrentHours())){
-			login_bg.setIcon(login_bg_nightIcon);
-		}else if("noon".equals(dateUtils.getCurrentHours())){
-			login_bg.setIcon(login_bg_noonIcon);
-		}
+//		if("morning".equals(dateUtils.getCurrentHours())){
+//			login_bg.setIcon(login_bg_morningIcon);
+//		}else if("afternoon".equals(dateUtils.getCurrentHours())){
+//			login_bg.setIcon(login_bg_afternoonIcon);
+//		}else if("night".equals(dateUtils.getCurrentHours())){
+//			login_bg.setIcon(login_bg_nightIcon);
+//		}else if("noon".equals(dateUtils.getCurrentHours())){
+//			login_bg.setIcon(login_bg_noonIcon);
+//		}
+		login_bg.setIcon(login_bg_noonIcon);
 		login_bg.setBounds(0, 0, windowWidth, windowHeight);
 		login_bg_texture = new JLabel(login_bg_textureIcon);  
 		login_bg_texture.setBounds(0, 0, windowWidth, windowHeight);
